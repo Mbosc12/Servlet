@@ -12,6 +12,10 @@
         <servlet-name>ShowClienState</servlet-name>
         <servlet-class>tpweb.ShowClienState</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ShowClientStateForm</servlet-name>
+        <servlet-class>tpweb.ShowClientStateForm</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/Servlet</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>ShowClienState</servlet-name>
         <url-pattern>/ShowClienState</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowClientStateForm</servlet-name>
+        <url-pattern>/ShowClientStateForm</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

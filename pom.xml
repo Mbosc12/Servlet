@@ -25,6 +25,7 @@
             <groupId>fr.irit.bastide</groupId>
             <artifactId>SimpleJDBC</artifactId>
             <version>1.0</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 

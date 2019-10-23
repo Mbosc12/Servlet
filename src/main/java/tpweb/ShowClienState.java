@@ -2,7 +2,6 @@ package tpweb;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -13,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import simplejdbc.CustomerEntity;
 import simplejdbc.DAO;
-import simplejdbc.DAOException;
 import simplejdbc.DataSourceFactory;
 
 /**
